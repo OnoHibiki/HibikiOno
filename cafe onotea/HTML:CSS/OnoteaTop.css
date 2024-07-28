@@ -1,0 +1,127 @@
+body{
+    background-color:gainsboro;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+a{
+    text-decoration: none;
+}
+
+/*header*/
+
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../image/cafeTop.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.header-item{
+    font-family:'Courier New', Courier, monospace ;
+}
+.logo{
+    font-size: 3em;
+    margin: 0;
+    background-color: antiquewhite;
+   
+
+}
+.sentence{
+    font-size:1em;
+    margin: 100% 0 0 0 ;
+    background-color: antiquewhite;
+}
+
+/* main nav */
+
+main{
+    margin: 0 3%;
+}
+
+
+
+
+/* content */
+.center{
+    background-color:azure;
+    text-align: center;
+    padding-top:7% ;
+    
+}
+.center h1{
+    padding: 3%;
+}
+#big{
+    font-weight:900;
+    padding-bottom:2%;
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+.make{
+    display: flex;
+    width: 100%;
+    justify-content:center ;
+    
+}
+.make img{
+    width: 25%;
+    height: auto;
+    margin: 0 5%;
+}
+.talk{
+    display: block;
+    height: auto;
+}
+.talk p{
+    text-align: left;
+    margin: 0;
+}
+
+/*menu*/
+.menu{
+    background-color: darkkhaki;
+    margin-top: 3%;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.menu-item{
+    min-width: 0;
+    width: 50%;
+    display: flex;
+    
+}
+
+.menu-item img{
+    object-fit: contain;
+    width: 25%;
+    height: 100%;
+    margin-left: 15%;
+    
+}
+.script{
+    display: inline-block;
+    text-wrap: nowrap;
+    text-align: center;
+}
+/*footer*/
+.footer{
+    margin:0 3% ;
+    background-color:cadetblue;
+}
+.footer a{
+    display: block;
+    text-align: center;
+    font-size: 4em;
+}
+.footer p{
+    text-align: right;
+}
