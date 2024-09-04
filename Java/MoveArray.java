@@ -59,12 +59,12 @@ public class MoveArray {
             System.out.println("操作"+q+"回中、"+(j+1)+"回目");
             if(q == j + 1){
                     int d = 0;
+                    System.out.println("完成↓");
                     while(d < a.size()){
                         System.out.print(a.get(d));
                         System.out.print(" ");
                         d = d + 1;
                     }
-                    System.out.println("完成！！");
                     
                 }
             
